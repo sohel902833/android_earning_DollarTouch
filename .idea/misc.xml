@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/drawable/button_bg.xml" value="0.28072916666666664" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/drawable/green_circle.xml" value="0.28072916666666664" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/drawable/white_circle.xml" value="0.28072916666666664" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_main.xml" value="0.23777173913043478" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_payment_status.xml" value="0.25" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_recent_payment.xml" value="0.20153985507246377" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_register.xml" value="0.20153985507246377" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/activity_withdraw.xml" value="0.20153985507246377" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/app_ber_layout.xml" value="0.2" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/payment_status_item_layout.xml" value="0.33" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/payment_submit_dialog.xml" value="0.20153985507246377" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/quiz_item_card.xml" value="0.33" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/recent_payment_item_layout.xml" value="0.20153985507246377" />
+        <entry key="..\:/Work/Android/Flutter/2021/DollarTouch/app/src/main/res/layout/welcome_dialog_layout.xml" value="0.20153985507246377" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
