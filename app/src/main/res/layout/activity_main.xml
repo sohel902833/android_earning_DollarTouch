@@ -11,42 +11,13 @@
         layout="@layout/app_ber_layout"
         android:id="@+id/appBarId"/>
 
-    <ScrollView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-            <include
-                layout="@layout/quiz_item_card"/>
-
-
-
-        </LinearLayout>
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:id="@+id/categoryRecyclerViewId"
+        />
 
 
 

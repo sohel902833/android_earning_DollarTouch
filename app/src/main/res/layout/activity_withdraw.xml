@@ -13,31 +13,29 @@
         android:layout_height="wrap_content">
 
         <RelativeLayout
-
             android:elevation="10dp"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
             android:layout_margin="10dp"
-
             android:background="@drawable/white_circle"
             android:padding="20dp"
             >
 
             <TextView
+                android:id="@+id/w_shortNameTv"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_centerInParent="true"
                 android:background="@drawable/green_circle"
-                android:text="A"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:padding="15dp"
-                android:textColor="#fff"
+                android:text="A"
                 android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20sp"
 
-                />
+                android:textStyle="bold" />
 
 
 
@@ -45,6 +43,7 @@
         </RelativeLayout>
 
         <TextView
+            android:id="@+id/w_nameTv"
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -85,11 +84,12 @@
                     />
 
                 <TextView
+                    android:id="@+id/w_balanceTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:text="\u09F31.45"
+                    android:text="\u09F30"
                     android:textColor="@color/greenDark"
                     android:textSize="19sp"
                     android:textStyle="bold"
@@ -121,6 +121,7 @@
 
             />
         <androidx.cardview.widget.CardView
+            android:id="@+id/w_bkashCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -150,11 +151,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="\u09F3500"
+                    android:text="0"
                     android:textColor="@color/greenDark"
+                    android:id="@+id/w_bkashCard_Amount"
+
                     android:textSize="19sp"
-
-
                     android:textStyle="bold" />
 
                 <ImageView
@@ -174,6 +175,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/w_NagadCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -189,12 +191,12 @@
                 android:padding="15dp">
 
                 <TextView
-                    android:layout_centerVertical="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:text="Nagad"
-                    android:textSize="17sp"
                     android:textColor="@color/blackAsh"
+                    android:textSize="17sp"
                     android:textStyle="bold"
 
                     />
@@ -203,11 +205,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="\u09F3250"
+                    android:text="0"
                     android:textColor="@color/greenDark"
+                    android:id="@+id/w_NagadCard_Amount"
+
                     android:textSize="19sp"
-
-
                     android:textStyle="bold" />
 
                 <ImageView
@@ -227,6 +229,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/w_RechargeCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -256,10 +259,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="\u09F350"
+                    android:text="0"
+                    android:id="@+id/w_RechargeCard_Amount"
+
                     android:textColor="@color/greenDark"
-
-
                     android:textSize="19sp"
                     android:textStyle="bold" />
 
@@ -271,15 +274,12 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
                     />
-
-
-
-
             </RelativeLayout>
 
 
         </androidx.cardview.widget.CardView>
         <TextView
+            android:id="@+id/w_selectedMethodTv"
             android:layout_marginLeft="20dp"
             android:textAlignment="textStart"
             android:layout_width="match_parent"
@@ -305,6 +305,7 @@
             app:cardElevation="10dp">
 
             <EditText
+                android:id="@+id/w_accountNoEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#fff"
@@ -320,6 +321,7 @@
         </androidx.cardview.widget.CardView>
 
         <Button
+            android:id="@+id/w_CashoutButton"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"

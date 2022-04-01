@@ -47,13 +47,16 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/r_nameEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
                     android:hint="Name"
+                    android:text="Md Sohrab Hossain"
                     android:padding="15dp"
                     android:textColorHint="@color/blackAsh"
                     android:textStyle="bold"
@@ -66,6 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                app:cardCornerRadius="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
@@ -73,10 +77,12 @@
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/r_phoneEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
-                    android:hint="Phone Number"
+                    android:text="sohrab@gmail.com"
+                    android:hint="Email"
                     android:padding="15dp"
                     android:textColorHint="@color/blackAsh"
                     android:textStyle="bold"
@@ -94,13 +100,16 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/r_PasswordEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
                     android:hint="Password"
+                    android:text="244739"
                     android:padding="15dp"
                     android:textColorHint="@color/blackAsh"
                     android:textStyle="bold"
@@ -116,11 +125,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/r_InviteCodeEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
@@ -135,6 +146,7 @@
 
             </androidx.cardview.widget.CardView>
             <Button
+                android:id="@+id/r_RegisterButton"
                 android:layout_marginTop="10dp"
                 android:background="@color/blueDark"
                 android:layout_width="match_parent"
@@ -159,6 +171,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
             <Button
+                android:id="@+id/r_LoginButton"
                 android:layout_marginTop="10dp"
                 android:background="@color/blueDark"
                 android:layout_width="match_parent"

@@ -47,9 +47,11 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/l_poneEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
@@ -71,9 +73,11 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <EditText
+                    android:id="@+id/l_passwordEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
@@ -84,11 +88,10 @@
                     android:drawableEnd="@drawable/next"
 
                     />
-
-
             </androidx.cardview.widget.CardView>
 
             <Button
+                android:id="@+id/l_loginButton"
                 android:layout_marginTop="10dp"
                 android:background="@color/blueDark"
                 android:layout_width="match_parent"
@@ -113,6 +116,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/l_createAccountButton"
                 android:layout_marginTop="10dp"
                 android:background="@color/blueDark"
                 android:layout_width="match_parent"

@@ -23,33 +23,11 @@
         android:textSize="16sp"
         />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_marginTop="20dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>   <include
-                layout="@layout/recent_payment_item_layout"/>
-
-
-        </LinearLayout>
-
-
-
-
-    </ScrollView>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/recentPaymentRecyclerViewId"
+       android:padding="10dp"
+       />
 
 </LinearLayout>

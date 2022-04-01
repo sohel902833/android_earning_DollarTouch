@@ -15,65 +15,69 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_marginLeft="5dp"
-            android:layout_centerVertical="true"
             android:id="@+id/rp_nameTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
             android:text="Aria"
+            android:textColor="@color/blackAsh"
             android:textSize="18sp"
-            android:textColor="@color/blackAsh"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-       <TextView
+            android:textStyle="bold" />
 
-           android:layout_toRightOf="@+id/rp_nameTvId"
-            android:layout_marginLeft="25dp"
-            android:layout_centerVertical="true"
+        <TextView
+
             android:id="@+id/rp_paymentMethodTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/rp_nameTvId"
             android:text="bKash"
+            android:textColor="@color/blackAsh"
             android:textSize="12sp"
-            android:textColor="@color/blackAsh"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
+
         <TextView
 
-           android:layout_toRightOf="@+id/rp_paymentMethodTv"
-            android:layout_marginLeft="25dp"
-            android:layout_centerVertical="true"
             android:id="@+id/rp_paymentStatusTvId"
-            android:text="bKash"
-            android:textSize="15sp"
-            android:textColor="@color/greenDark"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-          <TextView
-
-           android:layout_toRightOf="@+id/rp_paymentStatusTvId"
-            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:id="@+id/rp_dateTvID"
-            android:text="05/03/2001"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/rp_paymentMethodTv"
+            android:text="Pending"
+            android:textColor="@color/greenDark"
             android:textSize="15sp"
-            android:textColor="@color/blackAsh"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
+
 
         <TextView
+            android:id="@+id/rp_amountTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:id="@+id/rp_amountTvId"
-            android:text="\u09F31.45"
             android:layout_marginRight="10dp"
-            android:textSize="20sp"
+            android:text="\u09F31.45"
             android:textColor="@color/greenDark"
-            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_marginLeft="7dp"
+            android:id="@+id/rp_dateTvID"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rp_nameTvId"
+            android:layout_marginTop="15dp"
 
-            android:layout_height="wrap_content"/>
-
+            android:text="05/03/2001"
+            android:textColor="@color/blackAsh"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>

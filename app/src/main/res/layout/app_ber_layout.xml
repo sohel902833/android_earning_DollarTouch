@@ -15,30 +15,31 @@
 
 
         <ImageView
+            android:id="@+id/appBarMenuIcn"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/menu"
-            android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
-            />
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu" />
 
         <TextView
+            android:id="@+id/appBarBalanceTvId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="\u09F31.45"
+            android:text="\u09F30"
+
             android:textColor="@color/greenDark"
             android:textSize="30dp"
-
-
             android:textStyle="bold" />
+
         <ImageView
+            android:id="@+id/appBarProfileImageViewid"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/user"
-            android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
-            />
+            android:layout_centerVertical="true"
+            android:src="@drawable/user" />
 
     </RelativeLayout>
 

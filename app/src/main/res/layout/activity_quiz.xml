@@ -7,45 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".QuizActivity">
 
+
+
     <LinearLayout
+        android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="25dp"
-            android:weightSum="5"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ProgressBar
-                android:layout_weight="4"
-                android:progressTint="@color/greenDark"
-                android:progressBackgroundTint="@color/white"
-                android:id="@+id/progressBarId"
-                android:layout_gravity="center_vertical"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:elevation="10dp"
-                android:background="@color/white"
-                />
-            <TextView
-                android:textStyle="bold"
-                android:textSize="19sp"
-                android:textAlignment="center"
-                android:text="5/7"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-
-        </LinearLayout>
 
         <TextView
+            android:id="@+id/q_questionTv"
             android:layout_marginRight="20dp"
             android:layout_marginTop="35dp"
             android:layout_marginLeft="20dp"
@@ -53,13 +25,14 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:layout_centerVertical="true"
-            android:text="Q: What Is Correct _____"
+            android:text=""
             android:layout_centerInParent="true"
             android:textColor="@color/blackAsh"
             android:textSize="25sp"
             />
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/q_option1Card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -87,18 +60,18 @@
                     android:textStyle="bold"
 
                     />
+
                 <TextView
-                    android:layout_centerInParent="true"
-                    android:layout_centerVertical="true"
+                    android:id="@+id/q_option1Tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Whats App"
-                    android:textSize="19sp"
-                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:text=""
                     android:textColor="@color/blackAsh"
+                    android:textSize="19sp"
 
 
-                    />
+                    android:textStyle="bold" />
 
 
 
@@ -109,6 +82,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/q_option2Card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -136,18 +110,16 @@
                     android:textStyle="bold"
 
                     />
+
                 <TextView
-                    android:layout_centerInParent="true"
-                    android:layout_centerVertical="true"
+                    android:id="@+id/q_option2Tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Whats App"
-                    android:textSize="19sp"
-                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:text=""
                     android:textColor="@color/blackAsh"
-
-
-                    />
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
 
 
 
@@ -158,6 +130,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/q_option3Card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -185,18 +158,18 @@
                     android:textStyle="bold"
 
                     />
+
                 <TextView
-                    android:layout_centerInParent="true"
-                    android:layout_centerVertical="true"
+                    android:id="@+id/q_option3Tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Whats App"
-                    android:textSize="19sp"
-                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:text=""
                     android:textColor="@color/blackAsh"
+                    android:textSize="19sp"
 
 
-                    />
+                    android:textStyle="bold" />
 
 
 
@@ -219,14 +192,20 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/button_bg"
-        android:text="20s"
+        android:text="Next"
         android:textAllCaps="false"
         android:textColor="#fff"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:id="@+id/nextQuestionBtn"
 
         />
-
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/loadingBar"
+        />
 
 
 </RelativeLayout>
